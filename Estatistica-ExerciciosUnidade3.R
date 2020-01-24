@@ -142,3 +142,4 @@ pbinom(prob = 0.02, q = 2, size = 20, lower.tail = F)
 #e desvio padrão de R$ 500,00. Qual a percentagem de cientistas de dados que recebem menos de R$ 6.470,00?
 
 pnorm(mean = 8000, sd = 500, q = 6470)
+#0.001106685
