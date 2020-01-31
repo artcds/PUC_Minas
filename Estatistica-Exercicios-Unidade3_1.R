@@ -55,14 +55,9 @@ sample.size.prop(e = 0.025, level = 0.9)
 #1083
 
 #opcao2
-z = (qnorm(0.95) - qnorm(0.05))/2
+z = 1.64 #pela tabela
 p = 0.5
 e = 0.025
-ceiling(((z ** 2) * p * (1-p)) / (e ** 2))
-#1083
-
-#opcao3
-z = 1.64 #pela tabela
 ceiling(((z ** 2) * p * (1-p)) / (e ** 2))
 #1076
 
@@ -77,13 +72,8 @@ sample.size.mean(e = 0.05, S = sqrt(0.1764), level = 0.99)
 #469
 
 #opcao2
-z = (qnorm(0.995) - qnorm(0.005))/2
+z = 2.57 #pela tabela
 s = sqrt(0.1764)
 e = 0.05
-ceiling(((z * s) / e ) ** 2)
-#469
-
-#opcao3
-z = 2.57 #pela tabela
 ceiling(((z * s) / e ) ** 2)
 #467
